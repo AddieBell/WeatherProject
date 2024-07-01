@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+        <h1>Weather App</h1>
+      <form action="" id="location-form">
+        <input
+          type="text"
+          id="location-input"
+          placeholder="enter location"
+          class="input-field"
+        />
+        <button type="submit" id="search-button" class="btn">Search</button>
+      </form>
+      <div class="weather-container">
+        <p id="temperature" class="weather-data"></p>
+        <p id="description" class="weather-data"></p>
+        <p id="humidity" class="weather-data"></p>
+        <p id="wind-speed" class="weather-data"></p>
+        <button id="toggle-temp" class="toggle-btn">
+          Toggle Temperature Unit
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
